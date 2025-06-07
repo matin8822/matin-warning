@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚠️ هشدار اضطراری!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff3e0;
+            text-align: center;
+            padding: 20px;
+            color: #e65100;
+        }
+        .warning {
+            font-size: 3rem;
+            margin: 50px 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            animation: blink 1s infinite;
+            background-color: #ffcc80;
+            padding: 20px;
+            border-radius: 15px;
+            border: 5px dashed #e65100;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        .device-info {
+            background-color: #ffe0b2;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 30px auto;
+            max-width: 500px;
+            font-size: 1.2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .reasons {
+            background-color: #fff8e1;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 40px auto;
+            max-width: 700px;
+            text-align: right;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border: 3px dotted #ffb74d;
+        }
+        .reasons li {
+            margin: 15px 0;
+            list-style-type: persian;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+        }
+        .reasons li:hover {
+            transform: translateX(-10px);
+            color: #ff6d00;
+        }
+        .footer {
+            margin-top: 40px;
+            font-style: italic;
+            color: #ff9800;
+        }
+    </style>
+</head>
+<body>
+    <div class="warning">⚠️ اخطار! لطفاً مزاحم متین نشوید! ⚠️</div>
+    
+    <div class="device-info">
+        <span id="device-model">در حال شناسایی دستگاه شما...</span>
+    </div>
+    
+    <div class="reasons">
+        <h2 style="color: #ff6d00;">۵۰ دلیل کاملاً علمی و تأیید شده برای بیحوصلگی متین:</h2>
+        <ol>
+            <li>نوشابهاش گاز نداره (تراژدی واقعی!)</li>
+            <li>یخ‌های نوشابهش آب شدن</li>
+            <li>نوشابه رو با نی خورده (اصلاً حال نمیده!)</li>
+            <li>نوشابهش گرم شده</li>
+            <li>نوشابهش سرد شده (حالا چی می‌خوای بگی؟!)</li>
+            <li>برچسب نوشابه رو بد چسبوندن</li>
+            <li>نوشابهش مال کارخونه دیگه‌ایه</li>
+            <li>دیشب خواب دیده همه نوشابه‌های جهان ناپدید شدن</li>
+            <li>یه حباب تو نوشابهش گیر کرده</li>
+            <li>نوشابهش زود تموم شده</li>
+            <li>کفشاش رو پشت پا پوشیده</li>
+            <li>دیشب سریال مورد علاقش تموم شده</li>
+            <li>ساعت ۱۱:۱۱ شده و آرزو کرده کسی مزاحمش نشه</li>
+            <li>گوشیش فقط ۹۹ درصد شارژ داره</li>
+            <li>یه لکه روی شلوارش افتاده</li>
+            <li>همسایه‌ش رو دیده که داره گل می‌خوره</li>
+            <li>یه دونه از دکمه‌های کیبوردش گیر میکنه</li>
+            <li>یادش رفته امروز چه روزیه</li>
+            <li>یه ذره سس روی پیرهنش چکیده</li>
+            <li>بعد از ظهره و هنوز نخوابیده</li>
+            <li>یه مگس تو اتاقه</li>
+            <li>سینک ظرفشویی پر ظرفه</li>
+            <li>چایش خنک شده</li>
+            <li>کولر یه کم سرده</li>
+            <li>یه لکه رو آینه دستشویی دیده</li>
+            <li>یه تار مو روش افتاده</li>
+            <li>صبح زود بیدار شده</li>
+            <li>دیروز دیر خوابیده</li>
+            <li>یه لکه جوهر رو دستش مونده</li>
+            <li>سگ همسایه پارس کرده</li>
+            <li>یه برگ از گلدون ریخته بیرون</li>
+            <li>یه کاغذ مچاله تو سطل زباله نیفتاده</li>
+            <li>یه تیکه نون خشک تو نونوازیه</li>
+            <li>یادش رفته چرا یادش رفته</li>
+            <li>یه عدد جوراب گم شده</li>
+            <li>یه عدد جوراب دیگه هم گم شده</li>
+            <li>یه عدد جوراب دیگه هم گم شده (الان جدیه)</li>
+            <li>یه عدد جوراب پیدا کرده ولی جفتش نیست</li>
+            <li>یه عدد جوراب دیگه پیدا کرده ولی بازم جفتش نیست</li>
+            <li>یه عدد جوراب دیگه پیدا کرده ولی الان ۳ تا جوراب بی جفت داره</li>
+            <li>کف دستش یه ذره خارش داره</li>
+            <li>یه ذره نمک رو پیشخوان آشپزخونه پاشیده</li>
+            <li>یه تار مو رو بالشش دیده</li>
+            <li>یه تار موی دیگه رو بالشش دیده</li>
+            <li>یه تار موی دیگه... بسه دیگه!</li>
+            <li>یه عدد ماشین تو خیابون بی دلیل بوق زده</li>
+            <li>یه عدد مورچه رو دیوار راه میره</li>
+            <li>یه عدد مورچه دیگه هم اونجاست</li>
+            <li>یه عدد مورچه دیگه... واقعا بسه!</li>
+            <li>چون دلش می‌خواد و تمام!</li>
+        </ol>
+    </div>
+
+    <div class="footer">
+        <p>⚠️ توجه: این دلایل توسط آکادمی ملی علوم بی‌حوصلگی تأیید شده‌اند! ⚠️</p>
+        <p>© کپی‌رایت ۲۰۲۳ - مؤسسه تحقیقاتی "حوصله متین کجاست؟"</p>
+    </div>
+
+    <script>
+        // تشخیص مدل گوشی کاربر
+        const userAgent = navigator.userAgent;
+        let deviceModel = "ناشناخته";
+        
+        if (/iPhone|iPad|iPod/i.test(userAgent)) {
+            deviceModel = "آیفون/آیپد (مدل دقیق: " + (/(iPhone|iPad|iPod)\s+(\d+)/.exec(userAgent)?.[2] || "ناشناخته") + ")";
+        } else if (/Android/i.test(userAgent)) {
+            deviceModel = "اندروید (مدل: " + (/Android\s+\d+; (.+?)\)/.exec(userAgent)?.[1] || "ناشناخته") + ")";
+        } else if (/Windows/i.test(userAgent)) {
+            deviceModel = "کامپیوتر ویندوز";
+        } else if (/Macintosh/i.test(userAgent)) {
+            deviceModel = "کامپیوتر مک";
+        } else if (/Linux/i.test(userAgent)) {
+            deviceModel = "کامپیوتر لینوکس";
+        }
+        
+        document.getElementById("device-model").textContent = `شما با دستگاه ${deviceModel} وارد شدید و مزاحم متین شدید!`;
+        
+        // افکت اضافی برای دلایل
+        const reasons = document.querySelectorAll('.reasons li');
+        reasons.forEach((reason, index) => {
+            reason.style.animationDelay = `${index * 0.1}s`;
+        });
+    </script>
+</body>
+</html>
